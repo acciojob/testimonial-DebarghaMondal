@@ -5,34 +5,53 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<style>
-		.container{
-	padding: 10px;
+	main{
+	padding: 50px 15px;
 	background-color:#f5f5f5;
+		
 }
+		.container{
+			padding:7px;
+		}
 
-.testimonial{
+testimonial{
+	width:95%;
+	display:inline-block;
 	background-color:white;
 	padding:10px;
 	border:1px solid black;
+	justify-content:space-between;
 }
-
-
-
-.author{
+		text{
+			font-style:normal;
+			font-size:10px;
+		}
+author{
 	text-align:right;
 	font-style:italic;
+	font-size:10px;
 }
 	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <main class="container">
-		<div class="testimonial">
-			<span>The product is Amazing! I highly recommend it to anyone in need of a solution like this.</span>
-			<span class="author">-John Doe</span>
-		</div>
-	</main>
+	<main>
+		<h3>Testimonial</h3>
+    <div class="container">
+		<testimonial>
+			<text>The product is Amazing! I highly recommend it to anyone in need of a solution like this.</text>
+			<author>-John Doe</author>
+		</testimonial>
+	</div>
+
+	 <div class="container">
+		<testimonial>
+			<text>I have been using this for a few weeks now and it has completely transformed my workflow</text>
+			<author>-John Doe</author>
+		</testimonial>
+	</div>
+		</main>
 
 </body>
 
