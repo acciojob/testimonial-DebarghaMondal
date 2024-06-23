@@ -14,7 +14,7 @@
 			padding:7px;
 		}
 
-testimonial{
+.testimonial{
 	width:95%;
 	display:inline-block;
 	background-color:white;
@@ -22,15 +22,21 @@ testimonial{
 	border:1px solid black;
 	justify-content:space-between;
 }
-		text{
+		.text{
+			display:inline-block;
 			font-style:normal;
 			font-size:10px;
 		}
-author{
+.author{
+	display:inline-block;
 	text-align:right;
 	font-style:italic;
 	font-size:10px;
 }
+		h3{
+			margin:0px;
+			font-weight:700;
+		}
 	</style>
 </head>
 
@@ -39,17 +45,17 @@ author{
 	<main>
 		<h3>Testimonial</h3>
     <div class="container">
-		<testimonial>
-			<text>The product is Amazing! I highly recommend it to anyone in need of a solution like this.</text>
-			<author>-John Doe</author>
-		</testimonial>
+		<div class="testimonial">
+			<h2 class="text">The product is Amazing! I highly recommend it to anyone in need of a solution like this.</h2>
+			<p class="author">-John Doe</p>
+		</div>
 	</div>
 
 	 <div class="container">
-		<testimonial>
-			<text>I have been using this for a few weeks now and it has completely transformed my workflow</text>
-			<author>-John Doe</author>
-		</testimonial>
+		<div class="testimonial">
+			<h2 class="text">I have been using this for a few weeks now and it has completely transformed my workflow</h2>
+			<p class="author">-John Doe</p>
+		</div>
 	</div>
 		</main>
 
